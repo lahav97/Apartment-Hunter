@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment variables and secrets
+.env
+config/secrets.env
+
+# Config templates vs. real files
+# Track example files only
+config/filters.json
+!config/filters.example.json
+
+config/settings.json
+!config/settings.example.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Misc
+*.tmp

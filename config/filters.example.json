@@ -1,0 +1,9 @@
+{
+  "price_min": 2500,
+  "price_max": 4000,
+  "rooms_min": 2.5,
+  "rooms_max": 3,
+  "locations": ["בת גלים", "נווה שאנן", "רמות"],
+  "pets_allowed": true,
+  "keywords_required": ["מרפסת", "משופצת"]
+}
