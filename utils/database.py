@@ -1,6 +1,5 @@
 """
 Complete database utilities for apartment hunter
-Put this in utils/database.py
 """
 
 import sqlite3
